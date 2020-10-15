@@ -1,6 +1,6 @@
 # Projeto-React.js
 
-Desenvolvendo Desafio Acadêmico com React.js
+Desafio Acadêmico desenvolvido em React.js
 
 O Projeto é composto por: 
 
@@ -8,6 +8,6 @@ O Projeto é composto por:
 
 -Relogio local
 
--Relogios de outros países
+-Relogio de outros países
 
 -Temporizador 
