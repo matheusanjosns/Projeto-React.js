@@ -41,18 +41,6 @@ div#ln{
   float: left;
 
 }
-div#mt{
-  position: relative;
-  border-width:2px;
-  width: 350px;
-  height: 100px;
-  left:0px;
-  float: left;
-
-}
-.hr{
-  margin: 40px 0;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

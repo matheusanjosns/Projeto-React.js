@@ -13,9 +13,9 @@ class App extends React.Component {
       hora: 0,
       stop: false,
       nameStop: "Stop",
-      name: "Cronometro", 
+      name: "Cronômetro", 
       nameRelogio:"Relógio",
-      nameParcial: "Parcial do Cronometro",
+      nameParcial: "Parcial do Cronômetro",
       parcial: "",
       relogio: ""
     };

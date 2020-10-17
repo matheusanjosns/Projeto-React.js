@@ -7,7 +7,7 @@ import './App.css'
             constructor(props){
             super(props)
             this.state = {
-                nameRelogio:"Relogio Local",
+                nameRelogio:"Relógio Local",
                 relogio:"",
                 newyork:"",
                 moscow:"",
@@ -53,31 +53,31 @@ import './App.css'
                         <LabelRelogio name={this.state.relogio}/>  
                         <hr/>
                         <div id="ny">
-                         <h2>Relogio NEW YORK</h2> 
+                         <h2>Relógio New York</h2> 
                          <LabelRelogio name={this.state.newyork}/>
                         </div>
                         
                         <div id="mw">
-                         <h2>Relogio Moscow</h2>
+                         <h2>Relógio Moscow</h2>
                          <LabelRelogio name={this.state.moscow}/>
                         </div>
                            
                         <div id="ln">                        
-                         <h2>Relogio London</h2>
+                         <h2>Relógio London</h2>
                          <LabelRelogio name={this.state.london}/>
                         </div>
                         
-                        <div >
-                         <h2>Relogio Maputo</h2>
+                        <div>
+                         <h2>Relógio Maputo</h2>
                          <LabelRelogio name={this.state.maputo}/>
                         </div>
 
                         <div>  
-                         <h2>Relogio HongKong</h2>
+                         <h2>Relógio Hong Kong</h2>
                          <LabelRelogio name={this.state.hongkong}/>
                         </div>
         
-                        </div>
+                    </div>
                 )
             }
         }
