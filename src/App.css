@@ -1,7 +1,58 @@
+body {
+  background-image: radial-gradient(circle at 75.01% 103.64%, #ffdfd6 0, #ffe0d2 3.33%, #ffe1cf 6.67%, #ffe2cc 10%, #ffe4c9 13.33%, #ffe5c8 16.67%, #fbe7c7 20%, #f7e8c6 23.33%, #f2eac7 26.67%, #ecebc8 30%, #e7edc9 33.33%, #e2eecc 36.67%, #dcefcf 40%, #d7f0d2 43.33%, #d2f1d6 46.67%, #cdf2da 50%, #c9f3de 53.33%, #c5f3e3 56.67%, #c1f3e8 60%, #bff3ed 63.33%, #bdf3f2 66.67%, #bcf3f6 70%, #bcf3fb 73.33%, #bdf2ff 76.67%, #bff1ff 80%, #c2f0ff 83.33%, #c5efff 86.67%, #caeeff 90%, #cfedff 93.33%, #d4ebff 96.67%, #daeaff 100%);
+
+  font-family: 'Amatic SC', cursive;
+}
 .App {
   text-align: center;
 }
+form{
+  width: 290px;
+  margin: 12px;
+  font-size: 15px;  
+}
+.btn-dark{
+  margin:2px;
+}
+div#ny{
+  position: relative;
+  border-width:2px;
+  width: 350px;
+  height: 100px;
+  left:0px;
+  float: left;
 
+}
+div#mw{
+  position: relative;
+  border-width:2px;
+  width: 350px;
+  height: 100px;
+  left:0px;
+  float: left;
+
+}
+div#ln{
+  position: relative;
+  border-width:2px;
+  width: 350px;
+  height: 100px;
+  left:0px;
+  float: left;
+
+}
+div#mt{
+  position: relative;
+  border-width:2px;
+  width: 350px;
+  height: 100px;
+  left:0px;
+  float: left;
+
+}
+.hr{
+  margin: 40px 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +65,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #eef1f7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(248, 248, 248);
 }
 
 .App-link {
